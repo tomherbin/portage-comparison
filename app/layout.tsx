@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <nav className="flex justify-between items-center p-4 bg-background">
-            <h1 className="text-2xl font-bold">Portage List</h1>
+            <h1 className="text-xl font-bold">Portage List</h1>
             <ThemeToggle />
           </nav>
           {children}
