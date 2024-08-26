@@ -231,7 +231,7 @@ export default function Home() {
     <div className="rounded-md border p-4">
       <div className="flex items-center py-4">
         <Input
-          placeholder="Filtrer les entreprises"
+          placeholder="Filtrer les entreprises..."
           value={
             (table
               .getColumn("Nom de l&apos;entreprise")
