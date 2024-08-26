@@ -19,4 +19,4 @@
              ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
          - name: Deploy to VPS
-           run: ssh -o StrictHostKeyChecking=no root@64.225.105.5 'bash -s' < deploy.sh
+           run: ssh -o StrictHostKeyChecking=no root@64.225.105.5 'bash ~/portage-comparison/deploy.sh'
