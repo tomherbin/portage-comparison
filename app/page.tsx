@@ -399,7 +399,7 @@ export default function Home() {
               })
             }
           >
-            Réinitialiser les colonnes
+            Réinitialiser les colonnes...
           </Button>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
